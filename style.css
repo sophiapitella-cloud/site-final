@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #D68383;
+    color: #080701;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+main {
+    background-color: #D68383;
+    color: #080701;
+    padding: 20px;
+    border-radius: 0 0 8px 8px;
+}
+
+/* Ajuste do tamanho da imagem */
+img {
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Estilização do link em formato de botão */
+.botao-wiki {
+    display: inline-block;
+    background-color: #080701;
+    color: #D68383;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.botao-wiki:hover {
+    background-color: #333333;
+}
