@@ -1,46 +1,70 @@
+
+/* Estilo geral da página */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #FFF4F2;
+    color: #080701;
+    text-align: center;
 }
 
+/* Cabeçalho do site */
 header {
     background-color: #D68383;
-    color: #080701;
-    padding: 20px;
-    border-radius: 8px 8px 0 0;
+    padding: 30px 20px;
 }
 
+/* Conteúdo principal */
 main {
-    background-color: #D68383;
-    color: #080701;
-    padding: 20px;
-    border-radius: 0 0 8px 8px;
+    background-color: #FFF4F2;
+    padding: 30px 20px;
+}
+
+/* Título principal */
+h1 {
+    font-size: 30px;
+}
+
+/* Subtítulo */
+h2 {
+    color: #8B4048;
+}
+
+/* Parágrafos */
+p {
+    font-size: 17px;
+    line-height: 1.6;
 }
 
 /* Ajuste do tamanho da imagem */
-img {
-    max-width: 100%;
-    width: 400px;
+.imagem-cinema {
+    width: 100%;
+    max-width: 500px;
     height: auto;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+/* Botão para acessar a Wikipédia */
+.botao-cinema {
+    display: inline-block;
+    background-color: #8B4048;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
     border-radius: 8px;
-    display: block;
+    font-weight: bold;
     margin: 20px 0;
 }
 
-/* Estilização do link em formato de botão */
-.botao-wiki {
-    display: inline-block;
-    background-color: #080701;
-    color: #D68383;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    margin-top: 15px;
-    transition: background-color 0.3s;
+/* Efeito ao passar o mouse no botão */
+.botao-cinema:hover {
+    background-color: #642D34;
 }
 
-.botao-wiki:hover {
-    background-color: #333333;
+/* Rodapé com a autoria */
+footer {
+    background-color: #D68383;
+    padding: 15px;
+    font-size: 14px;
 }
